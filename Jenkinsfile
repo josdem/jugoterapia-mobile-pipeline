@@ -12,7 +12,7 @@ pipeline {
     stage('Run Jugoterapia smoke test') {
       steps {
         echo 'Running Jugoterapia'
-        build job: 'jugoterapia-mobile-debug'
+        build job: 'jugoterapia-appium'
         echo 'Done!'
       }
     }
